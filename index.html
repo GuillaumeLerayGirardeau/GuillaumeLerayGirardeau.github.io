@@ -1,18 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Village by CA - Landing Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- NAV -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-icon">▲</span>
+            <span class="logo-text">Village <em>by</em> CA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Startups</a></li>
+            <li><a href="#">Actualités</a></li>
+            <li><a href="#">Espace de travail</a></li>
+            <li><a href="#">À propos</a></li>
+        </ul>
+        <a href="#" class="nav-cta">Nous rejoindre</a>
+    </nav>
+
+    <!-- HERO -->
     <div class="hero-section">
-        <h1>Découvrez le potentiel de votre Startup</h1>
-    
-        <p>Un Accompagnement personnalisé. Une équipe à votre écoute. Les clés de votre réussite sont entre vos main.</p>
+        <div class="hero-bg-grid"></div>
+        <div class="hero-blob blob-1"></div>
+        <div class="hero-blob blob-2"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Laval · Mayenne · Grand Ouest</span>
+            <h1>Découvrez le potentiel<br>de votre <em>Startup</em></h1>
+            <p class="hero-sub">Un accompagnement personnalisé. Une équipe à votre écoute.<br>Les clés de votre réussite sont entre vos mains.</p>
+            <div class="hero-actions">
+                <a href="#" class="btn-primary">Découvrir le Village</a>
+                <a href="#" class="btn-ghost">Voir nos startups →</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Startups accompagnées</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num">10</span><span class="stat-label">Nouvelles par an</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat"><span class="stat-num">5 ans</span><span class="stat-label">D'expertise locale</span></div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-a">
+                <span class="card-dot green"></span>
+                <p>Levée de fonds réussie</p>
+                <strong>+250 000 €</strong>
+            </div>
+            <div class="floating-card card-b">
+                <span class="card-dot blue"></span>
+                <p>Nouveau partenariat</p>
+                <strong>Crédit Agricole</strong>
+            </div>
+            <div class="hero-circle">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="var(--accent)" d="M44.7,-76.4C58.8,-69.2,71.8,-58.7,79.4,-45.1C87,-31.5,89.2,-14.7,87.5,1.4C85.8,17.5,80.1,34.9,71.1,50.1C62.1,65.3,49.8,78.2,35.4,83.8C21,89.4,4.5,87.7,-10.5,82.2C-25.6,76.7,-39.3,67.4,-51.7,56.1C-64.1,44.8,-75.3,31.5,-79.4,16.3C-83.5,1.1,-80.5,-15.9,-74,-30.8C-67.5,-45.7,-57.5,-58.5,-44.5,-66.2C-31.5,-73.8,-15.8,-76.3,0,-76.3C15.7,-76.3,30.6,-83.6,44.7,-76.4Z" transform="translate(100 100)" />
+                </svg>
+                <span class="circle-emoji">🚀</span>
+            </div>
+        </div>
     </div>
+
+    <!-- INTRO BAND -->
+    <div class="intro-band">
+        <p>
+            Chaque année, le Village by CA aide une dizaine de Startups à développer leur activité sur le marché professionnel. Aujourd'hui, le nouveau site du Village by CA de Laval vous permet de découvrir en détails cette association portée sur la réussite de votre entreprise.
+        </p>
+    </div>
+
+    <!-- FEATURES GRID -->
+    <section class="features-section" id="features">
+        <div class="section-label">Ce que nous offrons</div>
+
+        <!-- Feature 1 -->
+        <div class="feature-block feature-wide">
+            <div class="feature-text">
+                <span class="feature-num">01</span>
+                <h2>Découvrez les<br>Startups de demain</h2>
+                <p>Accédez à un annuaire exclusif des startups sélectionnées et accompagnées par le Village by CA de Laval. Explorez leurs projets innovants, leurs domaines d'expertise et leurs ambitions. Chaque profil est une fenêtre ouverte sur l'entrepreneuriat de demain.</p>
+                <a href="#" class="feature-link">Explorer l'annuaire →</a>
+            </div>
+            <div class="feature-visual vis-startups">
+                <div class="startup-card">
+                    <div class="sc-tag">FinTech</div>
+                    <h4>PayFlow</h4>
+                    <p>Solutions de paiement B2B simplifiées</p>
+                </div>
+                <div class="startup-card sc-offset">
+                    <div class="sc-tag">GreenTech</div>
+                    <h4>EcoLoop</h4>
+                    <p>Économie circulaire pour PME</p>
+                </div>
+                <div class="startup-card">
+                    <div class="sc-tag">AgriTech</div>
+                    <h4>FarmData</h4>
+                    <p>Agriculture de précision par IA</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-block feature-reverse">
+            <div class="feature-text">
+                <span class="feature-num">02</span>
+                <h2>Des articles réguliers sur l'activité de votre région</h2>
+                <p>Restez informé des dernières actualités entrepreneuriales du Grand Ouest. Interviews de fondateurs, retours d'expérience, tendances du marché local et événements à venir — notre blog est votre veille économique de proximité.</p>
+                <a href="#" class="feature-link">Lire les actualités →</a>
+            </div>
+            <div class="feature-visual vis-articles">
+                <div class="article-preview">
+                    <div class="article-meta"><span class="tag-pill">Interview</span> · 12 mars 2026</div>
+                    <h4>« Nous avons doublé notre chiffre d'affaires en 8 mois »</h4>
+                    <p>Rencontre avec Laura Mérand, fondatrice de NutriSync...</p>
+                </div>
+                <div class="article-preview ap-small">
+                    <div class="article-meta"><span class="tag-pill event">Événement</span> · 20 mars 2026</div>
+                    <h4>Demo Day Village by CA – Laval</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-block">
+            <div class="feature-text">
+                <span class="feature-num">03</span>
+                <h2>Un environnement de travail unique et modulaire</h2>
+                <p>Le Village by CA de Laval met à votre disposition des espaces conçus pour l'innovation : open-spaces lumineux, salles de réunion équipées, espaces de détente et zones de collaboration. Un cadre pensé pour catalyser vos idées et vos rencontres.</p>
+                <a href="#" class="feature-link">Visiter l'espace →</a>
+            </div>
+            <div class="feature-visual vis-workspace">
+                <div class="room-grid">
+                    <div class="room-cell rc-large"><span>Open Space</span></div>
+                    <div class="room-cell rc-small"><span>Meeting</span></div>
+                    <div class="room-cell rc-small"><span>Lounge</span></div>
+                    <div class="room-cell rc-medium"><span>Workshop</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-block feature-reverse">
+            <div class="feature-text">
+                <span class="feature-num">04</span>
+                <h2>Un espace personnalisable pour votre startup</h2>
+                <p>Chaque startup accompagnée dispose d'un espace dédié sur la plateforme : page de présentation, coordonnées, actualités et mise en avant de vos produits. Construisez votre vitrine digitale et gagnez en visibilité auprès des investisseurs, partenaires et clients potentiels.</p>
+                <a href="#" class="feature-link">Créer mon profil →</a>
+            </div>
+            <div class="feature-visual vis-profile">
+                <div class="profile-mockup">
+                    <div class="pm-header">
+                        <div class="pm-avatar">S</div>
+                        <div>
+                            <div class="pm-name">Ma Startup</div>
+                            <div class="pm-sector">SaaS · B2B</div>
+                        </div>
+                    </div>
+                    <div class="pm-bar"></div>
+                    <div class="pm-bar short"></div>
+                    <div class="pm-tags">
+                        <span>Innovation</span><span>IA</span><span>Laval</span>
+                    </div>
+                    <div class="pm-metrics">
+                        <div><strong>12k</strong><small>Vues</small></div>
+                        <div><strong>48</strong><small>Contacts</small></div>
+                        <div><strong>3</strong><small>Offres</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-section">
+        <div class="cta-blob"></div>
+        <h2>Prêt à rejoindre l'aventure ?</h2>
+        <p>Candidatez dès maintenant et intégrez la prochaine promotion du Village by CA de Laval.</p>
+        <a href="#" class="btn-primary btn-large">Déposer ma candidature</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand">
+            <span class="logo-icon">▲</span> Village <em>by</em> CA — Laval
+        </div>
+        <div class="footer-links">
+            <a href="#">Mentions légales</a>
+            <a href="#">Contact</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="footer-copy">© 2026 Village by CA. Tous droits réservés.</div>
+    </footer>
+
+    <script src='main.js'></script>
 </body>
 </html>
